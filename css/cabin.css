@@ -1,0 +1,223 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family:'Poppins',sons-serif;
+}
+header {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	background: rgba(76, 188, 96, 0.9);
+	backdrop-filter: blur(10px);
+	height: 80px;
+	position: sticky;
+	top: 0;
+	z-index: 1000;
+	box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+.logo{
+	color: white;
+}
+
+.nav a{
+	color:  white;
+	text-decoration: none;
+	font-weight: 600;
+	font-size: 18px;
+	padding: 8px 16px;
+	transition: 300ms;
+	border-radius: 99pxs;
+}
+
+.nav a:hover{
+	background: rgba(0, 0, 0, 0.2);
+}
+
+.user-form-group a{
+	color: white;
+	text-decoration: none;
+	font-weight: 600;
+	font-size: 18px;
+}
+.signup{
+	border: rgba(255, 255, 255, 0.5)2px solid;
+	padding: 8px 16px;
+	margin-left: 16px;
+	border-radius: 99px;
+	transition: 300ms;
+}
+.signup.hover{
+	background: white;
+	color: black;
+}
+.nav.logo{
+	display: none;
+}
+.cabin-main {
+	max-width: 1200px;
+	margin: 80px auto 0;
+	padding: 2rem;
+}
+
+.diary-section {
+	display: grid;
+	gap: 2rem;
+	margin-top: 2rem;
+}
+
+.mood-tracker {
+	background: white;
+	padding: 2rem;
+	border-radius: 10px;
+	box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.mood-options {
+	display: flex;
+	gap: 1rem;
+	margin-top: 1rem;
+	flex-wrap: wrap;
+}
+
+.mood-btn {
+	padding: 0.5rem 1rem;
+	border: none;
+	border-radius: 20px;
+	background: #e8f1f2;
+	cursor: pointer;
+	transition: all 0.3s ease;
+}
+
+.mood-btn:hover {
+	background: #7c9885;
+	color: white;
+}
+
+.diary-form {
+	background: white;
+	padding: 2rem;
+	border-radius: 10px;
+	box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.diary-form textarea {
+	width: 100%;
+	height: 200px;
+	margin: 1rem 0;
+	padding: 1rem;
+	border: 1px solid #ddd;
+	border-radius: 10px;
+	resize: vertical;
+}
+
+.save-btn {
+	background: #7c9885;
+	color: white;
+	padding: 0.8rem 2rem;
+	border: 2px solid #7c9885;
+	border-radius: 25px;
+	cursor: pointer;
+	font-size: 1rem;
+	transition: all 0.3s ease;
+}
+
+.save-btn:hover {
+	background: white;
+	color: #7c9885;
+}
+
+.emotion-tips {
+	margin-top: 3rem;
+	padding: 2rem;
+	background: white;
+	border-radius: 10px;
+	box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.tips-header {
+	text-align: center;
+	margin-bottom: 2rem;
+}
+
+.tips-header h2 {
+	color: #7c9885;
+	margin-bottom: 1rem;
+}
+
+.tips-grid {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+	gap: 2rem;
+}
+
+.tip-card {
+	background: #f8f9fa;
+	border-radius: 10px;
+	overflow: hidden;
+	transition: transform 0.3s ease;
+}
+
+.tip-card:hover {
+	transform: translateY(-5px);
+}
+
+.tip-image {
+	width: 100%;
+	height: 200px;
+	overflow: hidden;
+}
+
+.tip-image img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.tip-content {
+	padding: 1.5rem;
+}
+
+.tip-content h3 {
+	color: #7c9885;
+	margin-bottom: 1rem;
+	font-size: 1.2rem;
+}
+
+.tip-content p {
+	color: #666;
+	line-height: 1.6;
+	margin-bottom: 1rem;
+}
+
+.tip-footer {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding-top: 1rem;
+	border-top: 1px solid #eee;
+}
+
+.tip-category {
+	background: rgba(124, 152, 133, 0.1);
+	color: #7c9885;
+	padding: 0.3rem 0.8rem;
+	border-radius: 15px;
+	font-size: 0.9rem;
+}
+
+.tip-more {
+	color: #b5838d;
+	text-decoration: none;
+	font-size: 0.9rem;
+}
+
+.tip-more:hover {
+	text-decoration: underline;
+}
+
+footer {
+	text-align: center;
+	padding: 2rem;
+	background-color: white;
+	margin-top: 2rem;
+}
